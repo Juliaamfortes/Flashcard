@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+    display: flex;
+}
+#conteiner{
+    display: flex;
+}
+.cartão{
+    background-color: rgb(241, 89, 114);
+    height: 20rem;
+    margin: 1rem 1rem;
+}
+.conteúdo{
+    text-align: center;
+    height: 100%;
+}
+.pergunta{
+    color: black;
+    font-size: 30px;
+}
+.resposta{
+    color: pink;
+    font-size:30px;
+    transform: rotateY(180deg);
+}
+h3{
+    margin: 1rem;
+    background-color: pink;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0,5rem;
+}
+p{
+    margin-top: 4rem;
+    padding: 1 rem;
+}
+.cartão:hover .conteúdo{
+    transform: rotateY(180deg);
+}
+
+
+
+
+footer {
+    background-color: pink;
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
